@@ -1,0 +1,32 @@
+body{
+    background-image: url(./campo-futbol-verde.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 10s infinite;
+
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(./campo-futbol-verde.jpg);
+    }
+    40%
+    {
+        background-image: url(./esquina-campo-futbol-marcas-blancas.jpg);
+    }
+    80%
+    {
+        background-image: url(./jugador-hockey-sobre-cesped-entrenando-practicando-deporte-sobre-hierba.jpg);
+    }
+    /* 60%
+    {
+        background-image: url(images/img4.jpg);
+    }
+    80%
+    {
+        background-image: url(images/img5.jpg);
+    } */
+    100%
+    {
+        background-image: url(./campo-futbol-verde.jpg);
+    }}
